@@ -16,7 +16,7 @@ npm install flatten-object
 
 ```js
 import flattenObject from 'flatten-object'
-// 1. As a simple object flattener
+// 1. as a simple object flattener
 
 const obj = {
     status: 'success',
@@ -39,7 +39,7 @@ const result = flattenObject(obj)
     'user.name.last': 'Nwaugha'
 }
 
-// 2. It accepts a separator
+// 2. accepts a separator
 
   const sep = '_'
   const result = flattenObject(obj, sep)
@@ -52,7 +52,7 @@ const result = flattenObject(obj)
     'user_name_last': 'Nwaugha'
 }
 
-// 3. Can be in creating route paths in web frameworks
+// 3. can be used in creating route paths in web frameworks
 
 const api = {
     users: {

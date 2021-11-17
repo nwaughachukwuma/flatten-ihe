@@ -24,7 +24,6 @@ jobs:
             **/node_modules
           key: ${{ runner.os }}-${{ matrix.node-version }}-modules-${{ hashFiles('**/package-lock.json') }}
       - run: npm run install
-      - run: npm run lint
       - run: npm run test
 
       - if: matrix.node-version == 14
