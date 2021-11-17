@@ -1,7 +1,7 @@
 {
   "name": "flatten-object",
   "version": "0.0.1",
-  "description": "flatten javascript objects",
+  "description": "Flatten javascript objects to a single level",
   "type": "module",
   "main": "index.js",
   "scripts": {
