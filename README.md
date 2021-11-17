@@ -1,6 +1,6 @@
 # flatten-object
 
-Flatten javascript objects to a single level
+Flatten javascript objects to a single level, with the ability to choose delimiter/separator.
 
 ## Installation
 
