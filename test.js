@@ -1,5 +1,5 @@
 import test from 'ava'
-import flattenObject from './index.js'
+import flattenIhe from './index.js'
 
 const obj = {
     status: 'success',
@@ -13,7 +13,7 @@ const obj = {
 }
 
 test('can flatten a nested object', (t) => {
-    const result = flattenObject(obj)   
+    const result = flattenIhe(obj)   
     t.deepEqual(result, {
         'status': 'success',
         'user.email': 'nwaughac@gmail.com',
@@ -24,7 +24,7 @@ test('can flatten a nested object', (t) => {
 
 test('can flatten a nested object using separator _', (t) => {
     const sep = '_'
-    const result = flattenObject(obj, sep)
+    const result = flattenIhe(obj, sep)
     t.deepEqual(result, {
         'status': 'success',
         'user_email': 'nwaughac@gmail.com',
@@ -55,7 +55,7 @@ const api = {
 // create route paths from api object
 test(`can flatten api object with path ("/") separator`, (t) => {
     const sep = '/'
-    const result = flattenObject(api, sep)
+    const result = flattenIhe(api, sep)
     t.deepEqual(result, {
         'users/getUser': api.users.getUser,
         'users/getUsers': api.users.getUsers,

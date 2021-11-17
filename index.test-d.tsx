@@ -1,5 +1,5 @@
 import { expectType } from "tsd";
-import flattenObject, { T } from "./index";
+import flattenIhe, { T } from "./index";
 
 const obj: T = {
   status: "success",
@@ -9,6 +9,6 @@ const obj: T = {
   },
 };
 
-expectType<T>(flattenObject(obj));
+expectType<T>(flattenIhe(obj));
 
-expectType<T>(flattenObject(obj, '-'));
+expectType<T>(flattenIhe(obj, "-"));

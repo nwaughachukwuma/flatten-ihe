@@ -1,5 +1,5 @@
 {
-  "name": "flatten-object",
+  "name": "flatten-ihe",
   "version": "0.0.1",
   "description": "Flatten javascript objects to a single level",
   "type": "module",
@@ -9,10 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nwaughachukwuma/flatten-object.git"
+    "url": "git+https://github.com/nwaughachukwuma/flatten-ihe.git"
   },
   "keywords": [
     "dotify",
+    "flat",
     "flatten-object",
     "object-flattener",
     "pathify"
@@ -24,9 +25,9 @@
   "license": "ISC",
   "types": "./index.d.ts",
   "bugs": {
-    "url": "https://github.com/nwaughachukwuma/flatten-object/issues"
+    "url": "https://github.com/nwaughachukwuma/flatten-ihe/issues"
   },
-  "homepage": "https://github.com/nwaughachukwuma/flatten-object#readme",
+  "homepage": "https://github.com/nwaughachukwuma/flatten-ihe#readme",
   "devDependencies": {
     "ava": "^3.15.0",
     "tsd": "^0.18.0"

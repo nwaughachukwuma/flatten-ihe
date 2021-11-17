@@ -1,21 +1,21 @@
-# flatten-object
+# flatten-ihe
 
-Flatten javascript objects to a single level, with the ability to choose delimiter/separator.
+Flatten javascript objects to a single level, with the ability to choose delimiter/separator. Ihe is an Igbo word for Object.
 
 ## Installation
 
 ```bash
-pnpm install flatten-object
+pnpm install flatten-ihe
 
-yarn add flatten-object
+yarn add flatten-ihe
 
-npm install flatten-object
+npm install flatten-ihe
 ```
 
 ## Usage
 
 ```js
-import flattenObject from 'flatten-object'
+import flattenIhe from 'flatten-ihe'
 // 1. as a simple object flattener
 
 const obj = {
@@ -29,9 +29,9 @@ const obj = {
     }
 }
 
-const result = flattenObject(obj)
+const result = flattenIhe(obj)
 
-// result : => 
+// result : =>
 {
     'status': 'success',
     'user.email': 'nwaughac@gmail.com',
@@ -42,7 +42,7 @@ const result = flattenObject(obj)
 // 2. accepts a separator
 
   const sep = '_'
-  const result = flattenObject(obj, sep)
+  const result = flattenIhe(obj, sep)
 
 // result :=>
 {
@@ -74,7 +74,7 @@ const api = {
 }
 
  const sep = '/'
- const result = flattenObject(obj, sep)
+ const result = flattenIhe(obj, sep)
 
  // result :=>
 
@@ -94,7 +94,7 @@ const api = {
 ## API
 
 ```ts
-flattenObject(obj: {[key: string]: any}, sep: string)
+flattenIhe(obj: {[key: string]: any}, sep: string)
 ```
 
 - **obj**: A javascript object of any nesting level.

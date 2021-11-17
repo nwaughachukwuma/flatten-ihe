@@ -2,7 +2,7 @@
  * @type T = Record<string, any>
  */
 
-export default function flattenObject(obj, sep = '.') {
+export default function flattenIhe(obj, sep = '.') {
   const result = {}
 
   function recurse(obj, current) {
