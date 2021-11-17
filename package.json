@@ -1,6 +1,6 @@
 {
   "name": "flatten-ihe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Flatten javascript objects to a single level",
   "type": "module",
   "main": "index.js",
