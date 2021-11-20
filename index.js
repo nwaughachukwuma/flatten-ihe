@@ -1,7 +1,3 @@
-/**
- * @type T = Record<string, any>
- */
-
 export default function flattenIhe(obj, sep = '.') {
   const result = {}
 
