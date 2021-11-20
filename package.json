@@ -1,9 +1,9 @@
 {
   "name": "flatten-ihe",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Flatten javascript objects to a single level",
   "type": "module",
-  "main": "index.js",
+  "exports": "./index.js",
   "scripts": {
     "test": "ava && tsd"
   },
@@ -17,6 +17,10 @@
     "flatten-object",
     "object-flattener",
     "pathify"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts"
   ],
   "author": {
     "name": "nwaughachukwuma",
