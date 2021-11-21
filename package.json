@@ -28,6 +28,7 @@
   "sideEffects": false,
   "files": [
     "index.js",
+    "lib/index.umd.js",
     "index.d.ts"
   ],
   "keywords": [
