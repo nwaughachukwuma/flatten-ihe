@@ -1,2 +1,2 @@
-export type T = Record<string, any>;
-export default function flattenIhe(obj: T, sep?: string): T;
+export interface T extends Record<string, any> {}
+export default function flattenIhe<K extends T>(obj: K, sep?: string): K;
