@@ -1,6 +1,6 @@
 # flatten-ihe
 
-Flatten javascript objects to a single level, with the ability to choose delimiter/separator. Ihe is an Igbo word for Object.
+Flatten javascript objects to a single level, with the ability to choose delimiter/separator. Ihe is an [Igbo word](https://en.wikipedia.org/wiki/Igbo_language) for Object.
 
 ## Installation
 
